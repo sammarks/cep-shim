@@ -1,25 +1,26 @@
 {
-  "name": "es5-shim",
+  "name": "cep-shim",
   "version": "4.5.12",
-  "description": "ECMAScript 5 compatibility shims for legacy JavaScript engines",
-  "homepage": "http://github.com/es-shims/es5-shim/",
+  "description": "ECMAScript 5 compatibility shims for the ExtendScript Javascript Engine. Based on es5-shim.",
+  "homepage": "https://github.com/sammarks/cep-shim",
   "contributors": [
     "Kris Kowal <kris@cixar.com> (http://github.com/kriskowal/)",
     "Sami Samhuri <sami.samhuri@gmail.com> (http://samhuri.net/)",
     "Florian Schäfer <florian.schaefer@gmail.com> (http://github.com/fschaefer)",
     "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
     "Kit Cambridge <kitcambridge@gmail.com> (http://kitcambridge.github.com)",
-    "Jordan Harband <ljharb@gmail.com> (https://github.com/ljharb/)"
+    "Jordan Harband <ljharb@gmail.com> (https://github.com/ljharb/)",
+    "Sam Marks <sam@sammarks.me> (https://github.com/sammarks)"
   ],
   "bugs": {
-    "mail": "ljharb@gmail.com",
-    "url": "http://github.com/es-shims/es5-shim/issues"
+    "mail": "sam@sammarks.me",
+    "url": "http://github.com/sammarks/cep-shim/issues"
   },
   "license": "MIT",
   "main": "es5-shim.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/es-shims/es5-shim.git"
+    "url": "http://github.com/sammarks/cep-shim.git"
   },
   "scripts": {
     "prepublish": "npm run minify",
